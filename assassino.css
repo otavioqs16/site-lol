@@ -1,0 +1,750 @@
+body{
+	margin: 0px;
+	background-image: url("assassino.jpg");
+	background-repeat: no-repeat;
+}
+
+#menu{
+	margin: 0px;
+	line-height: 40px
+	
+
+}
+
+#menu ul{
+	
+	background-color: black;
+	list-style: none;
+	margin: 0px;
+	
+}
+
+#menu ul li{
+	display: inline;
+
+}
+
+
+#menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: #c8aa6e;
+	border-bottom: 3px solid transparent;
+
+}
+
+#menu #familia :hover{
+	color: #f1e6d0;
+	
+}
+
+#menu #eu :hover{
+	color: #f1e6d0;
+
+}
+
+#menu #eu{
+	color: #fff;
+	border-color: #c8aa6e;
+}
+
+#top{
+	
+	margin: 0px;
+	width: 100%;
+	height: 978px;
+}
+
+#dentro{
+	margin-left: 10%;
+	color: #a9c8f9;
+	width: 40%;
+	font-size: 25px;
+	text-shadow: 2px 2px 6px #023489;
+
+}
+
+#dentro p{
+	
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+#zed{
+	border-top: 5px solid black;
+	background-image: url("badzed.jpg");
+	background-repeat: no-repeat;
+	background-color: #0B040B;
+	
+}
+
+#sobrez{
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #7B40C4;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 100px;
+	float: left;
+}
+
+
+#zedimg{
+	float: left;
+	margin-top: 150px;
+	margin-left: 40px;
+	transition: all .2s ease-in-out;
+}
+
+#zedimg :hover{
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+#sobrez p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+
+#hability{
+	clear: both;
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	padding-left: 20px;
+}
+
+#primeira{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+#imgzed{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepass{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepass{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpass{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segunda{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomeq{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreq{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidq{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceira{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomew{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrew{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidw{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quarta{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#eimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomeE{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreE{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vide{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quinta{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomer{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrer{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidr{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#talonimg{
+	margin-top: 150px;
+	margin-left: 150px;
+	width: 40%;
+	transition: all .2s ease-in-out;
+	float: left;
+	
+}
+
+#talonimg :hover{
+
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#sobret{
+	margin-top: -525px;
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #7B40C4;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 100px;
+	float: left;
+
+}
+
+#sobret p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+
+}
+
+#habilityt{
+	clear: both;
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	padding-left: 20px;
+}
+
+#talon{
+	
+	background-image: url("anothertalon.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#primeirat{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+#imgtalon{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepasst{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepasst{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpasst{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segundat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qtalonimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeqt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreqt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidqt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceirat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wtalonimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomewt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrewt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidwt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quartat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#etalonimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomeEt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreEt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#videt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quintat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rtalonimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomert{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrert{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidrt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#khazix{
+	border-top: 1px solid transparent;
+	background-image: url("khazika.jpg");
+	background-repeat: no-repeat;
+	background-color: #0B040B;
+	
+}
+
+#sobrek{
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #561066;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 100px;
+	float: left;
+}
+
+
+#khaimg{
+	float: left;
+	margin-top: 150px;
+	padding-right: 70px;
+	transition: all .2s ease-in-out;
+	width: 40%;
+}
+
+#khaimg :hover{
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+#sobrek p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+
+#habilityk{
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	padding-left: 20px;
+}
+
+#primeirak{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+#imgkha{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepassk{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepassk{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpassk{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segundak{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qkhaimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomeqk{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreqk{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidqk{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceirak{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wkhaimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomewk{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrewk{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidwk{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quartak{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#ekhaimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomeEk{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreEk{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#videk{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quintak{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rkhaimage{
+	float: left;
+	margin: 10px;
+}
+
+#nomerk{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrerk{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #561066;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidrk{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#about{
+
+	height: 400px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	
+
+}
+
+#about ul{
+
+	list-style: none;
+	padding: 10px;
+}
+
+#about ul li{
+
+	display: inline;
+}
+
+#about ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #f1e6d0;
+	font-size: 10px;
+}
+
+#about #solo{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #f1e6d0;
+
+}
+
+#about li :hover{
+	color: cyan;
+}
+
+
+#todos{
+	color: white;
+}
+
+#seguro{
+	width: 30%;
+	height: 280px;
+	float: left;
+
+
+}
+
+#logo{
+
+	width: 40%;
+	float: left;
+	
+}

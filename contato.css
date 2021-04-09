@@ -1,0 +1,79 @@
+form{
+	margin: 0 auto;
+	height: 625px;
+	background-image: url("pergaminho.jpg");
+}
+
+.main{
+	margin: 0 auto;
+	width: 400px;
+	padding: 16px;
+	border: 1px solid gray;
+	box-shadow: 5px 10px 18px #888888;
+	background-color: #ADD1B5;
+}
+
+h1{
+	padding-bottom: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia, serif;
+	color: #026053;
+	text-shadow: 2px 2px 6px rgba(0,0,0,.4)
+}
+
+form div{
+
+	margin-top: 16px;
+}
+
+label {
+ 
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    
+    font: 16px sans-serif;
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+
+    border-color: black;
+}
+
+input{
+	height: 30px;
+}
+textarea {
+    vertical-align: top;
+
+    height: 80px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+#button {
+	margin-left: 4px;
+	width: 300px;
+ 	height: 35px;
+ 	background-color: #026053;
+ 	text-transform: uppercase;
+ 	color: white;
+ 	font-size: 1em;
+ 	font-family: Arial, sans-serif;
+}
+
+#button:hover{
+	background-color: #003d34;
+}

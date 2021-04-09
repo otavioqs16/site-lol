@@ -1,0 +1,51 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.menu{
+	height: 30px;
+	background-color: black;
+	
+}
+
+#char{
+
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 100%;
+}
+
+#vid{
+
+	width: 25%;
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+
+#gal{
+
+	width: 25%;
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+
+#about{
+	text-align: center;
+	height: 100%;
+}
+
+
+#top{
+	background-image: url("squad.jpg");
+	height: 1000px;
+	z-index: 999;
+}
+
+#top img{
+	margin-left: 30%;
+}

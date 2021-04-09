@@ -1,0 +1,755 @@
+body{
+	margin: 0px;
+	background-image: url("atirador.jpg");
+	background-repeat: no-repeat;
+}
+
+#menu{
+	margin: 0px;
+	line-height: 40px
+	
+
+}
+
+#menu ul{
+	
+	background-color: black;
+	list-style: none;
+	margin: 0px;
+	
+}
+
+#menu ul li{
+	display: inline;
+
+}
+
+
+#menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: #c8aa6e;
+	border-bottom: 3px solid transparent;
+
+}
+
+#menu #familia :hover{
+	color: #f1e6d0;
+	
+}
+
+#menu #eu :hover{
+	color: #f1e6d0;
+
+}
+
+#menu #eu{
+	color: #fff;
+	border-color: #c8aa6e;
+}
+
+#top{
+	
+	margin: 0px;
+	width: 100%;
+	height: 978px;
+}
+
+#dentro{
+	margin-left: 10%;
+	color: #a9c8f9;
+	width: 40%;
+	font-size: 25px;
+	text-shadow: 2px 2px 6px #023489;
+
+}
+
+#dentro p{
+	
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+#ezreal{
+	border-top: 5px solid black;
+	background-image: url("ezreal.png");
+	background-repeat: no-repeat;
+}
+
+#sobreezreal{
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #7B40C4;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 70px;
+	float: left;
+
+}
+
+
+#ezrealpng{
+	width: 40%;
+	float: left;
+	margin-top: 120px;
+	margin-left: 150px;
+	transition: all .2s ease-in-out;
+}
+
+#ezrealpng :hover{
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+#sobreezreal p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+
+#habilityez{
+	clear: both;
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	padding-left: 20px;
+}
+
+#primeiraez{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+#imgezreal{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepassez{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepassez{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpassez{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segundaez{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qezrealimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeqez{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreqez{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidqez{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceiraez{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wezrealimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomewez{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrewez{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidwez{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quartaez{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#eezrealimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeEez{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreEez{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#videez{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quintaez{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rezrealimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomerez{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 3px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrerez{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #7B40C4;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidrez{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#tristana{
+	
+	background-image: url("tristana.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#tristimg{
+	margin-top: 180px;
+	margin-left: 20px;
+	width: 40%;
+	transition: all .2s ease-in-out;
+	float: left;
+	
+}
+
+#tristimg :hover{
+
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#sobretrist{
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #FF8067;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 100px;
+	float: left;
+
+}
+
+#sobretrist p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+
+}
+
+#habilityt{
+	clear: both;
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	padding-left: 20px;
+}
+
+
+
+#primeirat{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+
+#imgtristana{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepasst{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 3px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepasst{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpasst{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segundat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qtristimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeqt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreqt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidqt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceirat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wtristimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomewt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrewt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidwt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quartat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#etristimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeEt{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreEt{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#videt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quintat{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rtristimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomert{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrert{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #FF8067;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidrt{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#jhin{
+	border-top: 1px solid transparent;
+	background-image: url("jhin.jpg");
+	background-repeat: no-repeat;
+}
+
+#sobrejhin{
+	width: 40%;
+	color: #89b2f9;
+	text-shadow: 2px 2px 6px #023489;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 100px;
+	float: left;
+
+}
+
+
+#jhinpng{
+	width: 40%;
+	float: left;
+	margin-top: 170px;
+	margin-left: 40px;
+	transition: all .2s ease-in-out;
+}
+
+#jhinpng :hover{
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+#sobrejhin p{
+	padding-top: 20px;
+	font-family: CHARLESWORTH;
+	font-style: oblique;
+}
+
+
+#habilityj{
+	clear: both;
+	margin: 10px;
+	margin-top: 50px; 
+	color: white;
+	text-shadow: 2px 2px 6px #023489;
+	padding-left: 20px;
+}
+
+#primeiraj{
+	margin: 0px;
+	border:1px solid gray;
+
+
+}
+#imgjhin{
+	float: left;
+	margin: 10px;
+
+}
+
+#nomepassj{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrepassj{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #023489;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidpassj{
+	margin-top: -100px;
+	text-align: center;
+}
+	
+#segundaj{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#qjhinimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeqj{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreqj{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #023489;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidqj{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#terceiraj{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#wjhinimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomewj{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 6px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrewj{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #023489;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidwj{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quartaj{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#ejhinimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomeEj{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 3px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobreEj{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 6px #023489;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#videj{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#quintaj{
+	margin: 0px;
+	border: 1px solid gray;
+
+
+}
+#rjhinimg{
+	float: left;
+	margin: 10px;
+}
+
+#nomerj{
+	color: #2b2b2b;
+	text-shadow: 2px 2px 3px black;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#sobrerj{
+	width: 45%;
+	color: white;
+	text-shadow: 2px 2px 3px #023489;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+}
+
+#vidrj{
+	margin-top: -100px;
+	text-align: center;
+}
+
+#about{
+
+	height: 400px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	
+
+}
+
+#about ul{
+
+	list-style: none;
+	padding: 10px;
+}
+
+#about ul li{
+
+	display: inline;
+}
+
+#about ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #f1e6d0;
+	font-size: 10px;
+}
+
+#about #solo{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #f1e6d0;
+
+}
+
+#about li :hover{
+	color: cyan;
+}
+
+
+#todos{
+	color: white;
+}
+
+#seguro{
+	width: 30%;
+	height: 280px;
+	float: left;
+
+
+}
+
+#logo{
+
+	width: 40%;
+	float: left;
+	
+}
+
+
+
