@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="contato.css">
+	<link rel="shortcut icon" type="image/x-png" href="challenger.png">
+</head>
+<form action="home.html" method="post"> 
+	<br><br><br><br><br>
+
+	<input type="hidden" name="destino" value="otavioqs16@gmail.com">
+
+	<div class="main">
+	<div>
+		<h1>Entre em Contato</h1>
+	</div>
+
+	<div>
+		<label for="na
+		\me">Nome:</label>
+		<input type="text" id="name" placeholder="Seu nome">
+	</div>
+
+	<div>
+		<label for="mail">E-mail:</label>
+		<input type="email" id="mail" placeholder="seuemail@mail.com">
+	</div>
+
+	<div>
+		<label for="assunto">Assunto:</label>
+		<input type="text" id="assunto" placeholder="Sobre que deseja falar">
+	</div>
+
+
+	<div>
+		<label for="msg">Mensagem:</label>
+		<textarea id="msg" placeholder="Deixe sua opinião"></textarea>
+	</div>
+
+	<div class="button">
+		<input id="button" type="submit" value="Enviar" onclick="Enviar();">
+	</div>
+
+	<script>
+		function Enviar() {
+
+    	var nome = document.getElementById("name");
+
+   		 if (nome.value != "") {
+        alert('Obrigado sr(a) ' + nome.value + ', seus dados foram enviados com sucesso!');
+    	}
+}
+
+	</script>
+
+	</div>
+</form>
+	
+</html>
